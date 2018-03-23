@@ -1,0 +1,35 @@
+{
+  "name": "deploy",
+  "version": "0.2.0",
+  "description": "Simple shipping of environment-ready code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deploy": "./bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levibeach/deploy.git"
+  },
+  "keywords": ["deployments", "deploy", "node", "ssh"],
+  "author": "Levi Beach <hello@levibeach.com> (https://levibeach.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levibeach/deploy/issues"
+  },
+  "homepage": "https://github.com/levibeach/deploy#readme",
+  "dependencies": {
+    "args-parser": "^1.0.2",
+    "colorful": "^2.1.0",
+    "confirm-cli": "^0.4.0",
+    "dotenv": "^4.0.0",
+    "file-exists": "^2.0.0",
+    "inquirer": "^2.0.0",
+    "moment": "^2.17.1",
+    "prepend-file": "^1.3.1",
+    "simple-git": "^1.65.0",
+    "simple-ssh": "^0.9.0"
+  }
+}
