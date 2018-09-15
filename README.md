@@ -2,7 +2,7 @@
 
 ## Setup
 
-Deploy kit is a set of command line tools for deploying to a server using ssh
+Deploy is a set of command line tools for deploying to a server using ssh
 and git. In order for everything you work you'll first need your repo cloned to
 the server you'll be connecting to.
 
